@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <h3 align =center>Form</hr>
+        <table align=center>
+            <form action="" method="post">
+                <tr>
+                    <td>first Name
+                    <td>last Name
+                </tr>
+                <tr>
+                    <td><input type="text" name="fname" required>
+                    <td><input type="text" name="lname" required>
+                </tr>
+                <tr>
+                    <td>Email
+                    <td>phone no.
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" required>
+                    <td><input type="number" name="phoneNumber" min=7200000000 max=9999999999 required >
+                </tr>
+                <tr align=center>
+                    <td colspan=2><input type="submit"  value="submit" >
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
